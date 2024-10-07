@@ -18,7 +18,6 @@ local a, b = pcall(function()
         if method == "FireServer" or method == "InvokeServer" then
             print("Name Method: ", method)
             print("Obj:", self)
-            print("func: ", ...)
         end
         return oldNamecall(self, ...)
     end)
