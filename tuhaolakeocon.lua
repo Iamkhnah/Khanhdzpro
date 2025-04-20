@@ -1,1 +1,1 @@
-noguchi.hyuga
+return "noguchi.hyuga"
